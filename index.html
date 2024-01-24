@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" href="assets/img/favicon.jpg" type="image/x-icon" />
+
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./styles.css" />
+
+  <title>Party Time</title>
+</head>
+
+<body>
+  <div class="ballons">
+    <div id="balloon-container">
+    </div>
+  </div>
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo"> Party Time </a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#events" class="nav__link">Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#pockets" class="nav__link">Packages</a>
+          </li>
+          <li class="nav__item">
+            <a href="#footer" class="nav__link">Contact Us</a>
+          </li>
+        </ul>
+        <div class="nav__close" id="nav-close">
+          <i class="ri-close-line"></i>
+        </div>
+      </div>
+      <div class="nav__btns">
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="home" id="home">
+      
+      <div class="home__container container grid">
+        <img src="assets/img/main_Pic.webp" alt="" class="home__img" />
+
+        <div class="home__data">
+          <h1 class="home__title">Welcome to Party Time!</h1>
+          <p class="home__description">
+            Party Time is your go-to event planning company, dedicated to
+            turning ordinary moments into extraordinary memories. Our
+            passionate team specializes in creating themed events, tent
+            parties, and unforgettable celebrations.
+          </p>
+          <a href="#about" class="button button--flex">
+            Explore <i class="ri-arrow-right-down-line button__icon"></i>
+          </a>
+        </div>
+
+        <div class="home__social">
+          <span class="home__social-follow">Follow Us</span>
+
+          <div class="home__social-links">
+            <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+              <i class="ri-facebook-fill"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a href="https://twitter.com/" target="_blank" class="home__social-link">
+              <i class="ri-twitter-fill"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section container" id="about">
+      <div class="about__container grid">
+        <img src="assets/img/about.jpg" alt="" class="about__img" />
+
+        <div class="about__data">
+          <h2 class="section__title about__title">
+            ABOUT PARTY <br />
+            TIME
+          </h2>
+          <p class="about__description">
+            At Party Time, we're more than just an event and celebration
+            company - we're memory-makers. Our passionate team specializes in
+            crafting themed events, tent parties, and unforgettable
+            celebrations. We believe in the magic of creativity, the power of
+            attention to detail, and the joy of customer satisfaction. Whether
+            it's a birthday bash, a corporate gathering, or a festive soirée,
+            Party Time is here to turn ordinary moments into extraordinary
+            memories. Join us, and let's make your next event truly
+            unforgettable! 🌟🎶
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="about section container" id="about2">
+      <div class="about__container grid">
+        <img src="assets/img/White-events-party-planner-designs.jpg" alt="" class="about__img" />
+
+        <div class="about__data">
+          <h2 class="section__title about__title">
+            Why Choose <br />
+            Party Time?
+          </h2>
+
+          <p class="about__description">
+            <i class="ri-checkbox-fill about__details-icon"></i>
+            Unbiased Reviews: With over 4000+ reviews, our reputation speaks
+            for itself. Our clients trust our planning process and delivery
+            service every time.
+          </p>
+          <p class="about__description">
+            <i class="ri-checkbox-fill about__details-icon"></i>
+            Timely Deliveries: We understand the importance of punctuality. We
+            always deliver on time, ensuring your event runs smoothly.
+          </p>
+          <p class="about__description">
+            <i class="ri-checkbox-fill about__details-icon"></i>
+            Sharing the Joy: Music, laughter, and celebration - we help you
+            enjoy the rhythm of life and share it with others.
+          </p>
+          <p class="about__description">
+            <i class="ri-checkbox-fill about__details-icon"></i>
+            Post-Party Care: Our commitment doesn't end when the party does.
+            We come over for a check-up after the sale to ensure everything
+            exceeded your expectations.
+          </p>
+          <p class="about__description">
+            <i class="ri-checkbox-fill about__details-icon"></i>
+            100% Money-Back Guarantee: Your happiness is our priority. If
+            you're not satisfied, we offer a full refund.
+          </p>
+          <a href="#pockets" class="button--link button--flex">
+            Shop Now <i class="ri-arrow-right-down-line button__icon"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="event section container" id="events">
+      <h2 class="section__title-center">
+        Check out our <br />
+        Services!
+      </h2>
+
+      <p class="event__description">
+        Here are some of the packages we offer, along with their prices
+      </p>
+
+      <div class="event__container grid">
+        <article class="event__card">
+          <img src="assets/img/thematic.png" alt="" class="event__img" width="120" height="150" />
+
+          <h3 class="event__title">Thematic Events</h3>
+          <span class="event__price">$399.99</span>
+
+          <button class="button--flex event__button">
+            <i class="ri-shopping-bag-line"></i>
+          </button>
+        </article>
+
+        <article class="event__card">
+          <img src="assets/img/tent.png" alt="" class="event__img" />
+
+          <h3 class="event__title">Tent Parties</h3>
+          <span class="event__price">$299.99</span>
+
+          <button class="button--flex event__button">
+            <i class="ri-shopping-bag-line"></i>
+          </button>
+        </article>
+
+        <article class="event__card">
+          <img src="assets/img/special.jpg" alt="" class="event__img" />
+
+          <h3 class="event__title">Special Holidays</h3>
+          <span class="event__price">$159.99</span>
+
+          <button class="button--flex event__button">
+            <i class="ri-shopping-bag-line"></i>
+          </button>
+        </article>
+
+        <article class="event__card">
+          <img src="assets/img/entertainment.jpg" alt="" class="event__img" />
+
+          <h3 class="event__title">Entertainment Events</h3>
+          <span class="event__price">$299.99</span>
+
+          <button class="button--flex event__button">
+            <i class="ri-shopping-bag-line"></i>
+          </button>
+        </article>
+
+        <article class="event__card">
+          <img src="assets/img/charity.jpg" alt="" class="event__img" />
+
+          <h3 class="event__title">Charity Funds</h3>
+          <span class="event__price">$249.99</span>
+
+          <button class="button--flex event__button">
+            <i class="ri-shopping-bag-line"></i>
+          </button>
+        </article>
+
+        <article class="event__card">
+          <img src="assets/img/delivering.jpg" alt="" class="event__img" />
+
+          <h3 class="event__title">Delivering food to parties</h3>
+          <span class="event__price">$199.99</span>
+
+          <button class="button--flex event__button">
+            <i class="ri-shopping-bag-line"></i>
+          </button>
+        </article>
+
+        <article class="event__card">
+          <img src="assets/img/decoration.png" alt="" class="event__img" />
+
+          <h3 class="event__title">Decorating the place for the party</h3>
+          <span class="event__price">$299.99</span>
+
+          <button class="button--flex event__button">
+            <i class="ri-shopping-bag-line"></i>
+          </button>
+        </article>
+
+        <article class="event__card">
+          <img src="assets/img/party.jpg" alt="" class="event__img" />
+
+          <h3 class="event__title">Party invitations</h3>
+          <span class="event__price">$99.99</span>
+
+          <button class="button--flex event__button">
+            <i class="ri-shopping-bag-line"></i>
+          </button>
+        </article>
+
+        <article class="event__card">
+          <img src="assets/img/lightning.jpg" alt="" class="event__img" />
+
+          <h3 class="event__title">Lighting and music equipment</h3>
+          <span class="event__price">$59.99</span>
+
+          <button class="button--flex event__button">
+            <i class="ri-shopping-bag-line"></i>
+          </button>
+        </article>
+      </div>
+    </section>
+
+    <section class="pockets section container" id="pockets">
+      <div class="pockets__bg">
+        <h2 class="section__title-center pockets__title">Packages</h2>
+
+        <div class="pockets__container grid">
+          <div class="pockets__card">
+            <h1>Bronze</h1>
+            <p class="pockets__card-description">
+              • Room decorations (balloons, banners) <br>
+              • Table decorations (centerpiece flowers, small gifts) <br>
+              • DJ service <br>
+              • Cold food options <br>
+              • Custom invitation design 
+            </p>
+            <div class="pockets__card-btn">Read More</div>
+          </div>
+
+          <div class="pockets__card">
+            <h1>Silver</h1>
+            <p class="pockets__card-description">
+              • Includes everything from Bronze <br>
+              • Beautiful and rare invitation design <br>
+              • DJ service and Karaoke <br>
+              • Live band entertainment <br>
+              • Expanded cold meal choices and various juices
+            </p>
+           <div class="pockets__card-btn">Read More</div>
+          </div>
+
+          <div class="pockets__card">
+            <h1>Gold</h1>
+            <p class="pockets__card-description">
+              • Includes everything from Silver <br>
+              • Dedicated staff for seamless execution <br>
+              • Live band with a focus on entertainment <br>
+              • Hot and cold food options, along with a variety of juices <br>
+            </p>
+            <div class="pockets__card-btn">Read More</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section" id="footer">
+    <div class="footer__container container grid">
+      <div class="footer__content">
+        <a href="#" class="footer__logo"> Party Time </a>
+
+        <h3 class="footer__title">
+          Enter your email address to <br />
+          contact us quickly.
+        </h3>
+
+        <div class="footer__subscribe">
+          <input type="email" placeholder="Enter your email" class="footer__input"/>
+
+          <button class="button button--flex footer__button">
+            Send
+            <i class="ri-arrow-right-up-line button__icon"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">Our Address</h3>
+
+        <ul class="footer__data">
+          <li class="footer__information">Australia - Sydney</li>
+          <li class="footer__information">Zip Code - 2000</li>
+          <li class="footer__information">+61 011 612 777 888</li>
+        </ul>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">Contact Us</h3>
+
+        <ul class="footer__data">
+          <li class="footer__information">+61 011 612 777 999</li>
+
+          <div class="footer__social">
+            <a href="https://www.facebook.com/" class="footer__social-link">
+              <i class="ri-facebook-fill"></i>
+            </a>
+            <a href="https://www.instagram.com/" class="footer__social-link">
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a href="https://twitter.com/" class="footer__social-link">
+              <i class="ri-twitter-fill"></i>
+            </a>
+          </div>
+        </ul>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">We accept all credit cards</h3>
+
+        <div class="footer__cards">
+          <img src="assets/img/card1.png" alt="" class="footer__card" />
+          <img src="assets/img/card2.png" alt="" class="footer__card" />
+          <img src="assets/img/card3.png" alt="" class="footer__card" />
+          <img src="assets/img/card4.png" alt="" class="footer__card" />
+        </div>
+      </div>
+    </div>
+    <p class="footer__copy">&#169; Party Time. All rigths reserved</p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
